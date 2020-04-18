@@ -1,1 +1,18 @@
 // Mixins Here
+
+.flex {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headline-class {
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+
+.button-class (@radius, @color) {
+    border-radius: @radius;
+    background-color: @color;
+}
